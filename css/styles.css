@@ -4,35 +4,14 @@ body {
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.logo-left {
-  color: #2e2f42;
-}
-nav ul li a {
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-weight: 500;
-}
-nav ul li a:hover {
-  color: #404bbf;
-}
-nav ul li a:focus {
-  color: #404bbf;
 }
 
-address {
+.menu a {
+  font-weight: 500;
+}
+
+.contact ul li a {
   font-weight: 400;
-  font-style: normal;
 }
 
 h1 {
