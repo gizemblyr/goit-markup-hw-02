@@ -8,7 +8,7 @@ body {
 }
 nav .logo,
 footer .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -121,4 +121,8 @@ address {
 
 .team-item {
   background-color: #ffffff;
+}
+
+footer .logo-left{
+  color: #2e2f42 ;
 }
