@@ -1,58 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
-nav .logo,
-footer .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.logo-left {
-  color: #2e2f42;
-}
-.items {
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+
+.menu a {
   font-weight: 500;
 }
-.items:hover {
-  color: #404bbf;
-}
-.items:focus {
-  color: #404bbf;
-}
 
-.contact-items {
-  color: #434455;
-}
-.contact-items:hover {
-  color: #404bbf;
-}
-.contact-items:focus {
-  color: #404bbf;
-}
-
-address {
+.contact ul li a {
   font-weight: 400;
-  font-style: normal;
-}
-
-.text-main {
-  font-size: 56px;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 1);
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
 }
 
 .section-bgcolor {
@@ -61,68 +25,59 @@ address {
   height: 600px;
 }
 
+h1.text-main {
+  font-size: 56px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 100px;
+}
+
 .button {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
   background-color: rgba(77, 90, 229, 1);
   color: white;
   width: 169px;
   height: 56px;
   font-weight: 500;
   cursor: pointer;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+  padding: 20px 20px;
 }
 .button:hover {
   background-color: #404bbf;
 }
-.button:focus {
-  background-color: #404bbf;
-}
 
-.text-second {
+h2 {
   font-size: 36px;
   font-weight: 700;
   color: rgba(46, 47, 66, 1);
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+  margin: 0;
 }
 
-.text-third {
+h3 {
   font-size: 20px;
   font-weight: 500;
   color: rgba(46, 47, 66, 1);
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
-.textp {
+p {
   font-size: 16px;
   font-weight: 400;
   color: rgba(67, 68, 85, 1);
 }
 
-.footer {
+.footer-bgcolor {
   background-color: rgba(46, 47, 66, 1);
   width: 1440px;
   height: 312px;
 }
 
-.footer-p {
-  color: #f4f4fd;
-  font-family: Roboto, sans-serif;
+.footer-bgcolor p {
+  color: white;
 }
 
-.ourteam-bgcolor {
-  background-color: #f4f4fd;
+.footer-bgcolor p {
+  color: white;
 }
 
-.team-item {
-  background-color: #ffffff;
-}
-
-.footer-logo-left {
+.logo-left {
   color: #2e2f42;
 }
