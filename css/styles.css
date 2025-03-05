@@ -328,3 +328,7 @@ section ul li {
 section ul li:hover {
   transform: translateY(-10px);
 }
+
+footer .logo-left {
+  color: #f4f4fd;
+}
