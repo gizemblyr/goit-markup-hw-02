@@ -25,6 +25,28 @@ body {
   width: 1440px;
   height: 600px;
 }
+/* Button stilinin başlangıcı */
+.btn {
+  background-color: #4d5ae5; /* Arka plan rengi */
+  font-family: "Roboto", sans-serif; /* Yazı tipi */
+  font-weight: 500; /* Yazı tipi kalınlığı */
+  font-size: 16px; /* Yazı tipi boyutu */
+  line-height: 1.5; /* Satır aralığı */
+  letter-spacing: 0.04em; /* Harf aralığı */
+  color: #ffffff; /* Metin rengi */
+  cursor: pointer; /* Fare imleci stili */
+  border: none; /* Sınırları kaldırmak */
+  padding: 10px 20px; /* Butona biraz iç boşluk eklemek */
+  border-radius: 5px; /* Buton köşelerini yuvarlamak */
+  transition: background-color 0.3s ease; /* Arka plan rengi değişimi için geçiş efekti */
+}
+
+/* Hover ve Focus durumları */
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf; /* Hover ve focus durumlarında arka plan rengi */
+  outline: none; /* Focus durumunda etrafındaki çizgiyi kaldırmak */
+}
 
 h1.text-main {
   font-size: 56px;
@@ -201,7 +223,7 @@ footer .logo {
 }
 
 footer .logo span {
-  color: #2e2f42;
+  color: rgba(244, 244, 253, 1);
 }
 
 footer p {
