@@ -31,7 +31,7 @@ body {
   justify-content: center;
 }
 
-.btn {
+.buton {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -49,14 +49,12 @@ body {
 }
 
 /* Hover and Focus states */
-.btn:hover {
+.buton:hover {
   background-color: #404bbf; /* Arka plan rengini değiştir */
-  color: #fff; /* Metin rengini beyaz yap */
 }
 
-.btn:focus {
+.buton:focus {
   background-color: #404bbf; /* Arka plan rengini değiştir */
-  color: #fff; /* Metin rengini beyaz yap */
 }
 
 h1.text-main {
@@ -114,7 +112,7 @@ p {
   color: white;
 }
 
-.logo-left {
+header .logo-left {
   color: #2e2f42;
 }
 
