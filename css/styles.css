@@ -48,15 +48,6 @@ body {
   display: inline-block; /* To align with text */
 }
 
-/* Hover and Focus states */
-.buton:hover {
-  background-color: #404bbf; /* Arka plan rengini değiştir */
-}
-
-.buton:focus {
-  background-color: #404bbf; /* Arka plan rengini değiştir */
-}
-
 h1.text-main {
   font-size: 56px;
   font-weight: 700;
